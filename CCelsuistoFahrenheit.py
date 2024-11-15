@@ -1,0 +1,5 @@
+Degree_Celsuis=int(input("Enter the number of degree celsuis:"))
+print("The temperature value in  degree celsuis:",Degree_Celsuis)
+Degree_Fahrenheit=(Degree_Celsuis*33.8)
+print("The {} degree celsuis is : {} of degree fahrenheit" .format(Degree_Celsuis,Degree_Fahrenheit))
+print("The %.2f degree celsuis is : %.2f of degree fahrenheit" %(Degree_Celsuis,Degree_Fahrenheit))
